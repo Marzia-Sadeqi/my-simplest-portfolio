@@ -1,0 +1,153 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8ede5;
+    color: #30382f;
+    line-height: 1.6;
+}
+
+.heading1 {
+    text-align: center;
+    padding: 20px 8%;
+}
+
+.my-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 8%;
+    gap: 40px;
+    background-color: #e8ede5;
+    
+}
+
+
+.my-nav a {
+    display: flex;
+    text-decoration: none;
+    color: #30382f;
+    gap: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.intro img {
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+
+
+
+.my-favorite-books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+/* ................ */
+
+.ul {
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 20px 50px 50px;
+}
+
+figure {
+    margin: 20px 20px 50px 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+}
+
+figure img {
+    display: flex;
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.myform {
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+ textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.info {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #55745b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
